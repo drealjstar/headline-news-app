@@ -1,0 +1,65 @@
+
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.card img{
+    width: 100%;
+    max-height: 150px;
+}
+
+h2{
+color: white;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.loading{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 100px;
+}
+
+.header{
+    background-color:cornflowerblue;
+    height: 50px;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+   
+
+.card{
+    height: 350px;
+    width: 30%;
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 2px 15px;
+    box-shadow: inset  5px 5px 5px rgba(223, 220, 220, 0.6), inset -5px -5px 5px rgba(223, 220, 220, 0.6);;
+border-radius: 5px;
+}
+                                                                                                                                                                                                            
+.card:hover{
+ box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+
+.backclick{
+  font-size: larger;
+  font-weight: 1000;
+  
+
+}
+
+
+
